@@ -1,0 +1,264 @@
+<<<<<<< HEAD
+body{
+    font-size:16px;
+    font-family: 'Oxygen', sans-serif;
+    color: #fff;
+    background-color:lightgrey;
+}
+
+#header-nav{
+    background-color:firebrick;
+    border-radius: 0;
+    border: 0;
+    height: auto;
+    width: 100%;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Food, LLC */
+    color:whitesmoke;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #111111;
+    margin-top: -15px;
+    margin-left: -15px;
+    line-height: .9;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#nav-list a {
+    font-size: 1.1em;
+    text-align: center;
+    color:lightgrey;
+}
+#nav-list a:hover {
+    color:darkgrey;
+}
+
+/* Footer START */
+.panel-footer {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 0;
+    background-color:firebrick;
+    color: whitesmoke;
+    font-size: 0.9em;
+    text-align: center;
+}
+/* Footer END */
+
+/* Main Content START */
+.container .row .block {
+    background-color: #614c5688;
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+}
+
+.container .row .title{
+    font-size: 1.6em;
+    text-align: center;
+    text-transform: uppercase;
+    color: firebrick;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px #222;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    
+}
+
+.container p {
+    font-size: 1.2em;
+    text-align: justify;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+/* Main Content END */
+
+/********** Medium devices or bigger (Desktop) **********/
+@media (min-width: 992px) {
+
+}
+
+/********** Small devices only (Tablet) **********/
+@media (min-width:768px) and (max-width:991px){
+    #chicken{
+        width: 46%;
+    }
+    #beef{
+        width: 46%;
+    }
+    #sushi{
+        width: 95%;
+    }
+}
+
+/********** Extra Small devices only (Mobile) **********/
+@media (max-width: 767px){
+    .navbar-brand h1 { /* Food, LLC */
+        font-size: 6vw;  
+    }
+
+    .panel-footer {
+        font-size: 0.8em;
+    }
+
+    .container .row .title{
+        font-size: 1.3em;
+    }
+
+    .container p {
+        font-size: 1.1em;
+    }
+
+    .col-sm-12{
+        width: 95.5%;
+        margin-left: 15px;
+    }
+=======
+body{
+    font-size:16px;
+    font-family: 'Oxygen', sans-serif;
+    color: #fff;
+    background-color:lightgrey;
+}
+
+#header-nav{
+    background-color:firebrick;
+    border-radius: 0;
+    border: 0;
+    height: auto;
+    width: 100%;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Food, LLC */
+    color:whitesmoke;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #111111;
+    margin-top: -15px;
+    margin-left: -15px;
+    line-height: .9;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#nav-list a {
+    font-size: 1.1em;
+    text-align: center;
+    color:lightgrey;
+}
+#nav-list a:hover {
+    color:darkgrey;
+}
+
+/* Footer START */
+.panel-footer {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 0;
+    background-color:firebrick;
+    color: whitesmoke;
+    font-size: 0.9em;
+    text-align: center;
+}
+/* Footer END */
+
+/* Main Content START */
+.container .row .block {
+    background-color: #614c5688;
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+}
+
+.container .row .title{
+    font-size: 1.6em;
+    text-align: center;
+    text-transform: uppercase;
+    color: firebrick;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px #222;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    
+}
+
+.container p {
+    font-size: 1.2em;
+    text-align: justify;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+/* Main Content END */
+
+/********** Medium devices or bigger (Desktop) **********/
+@media (min-width: 992px) {
+
+}
+
+/********** Small devices only (Tablet) **********/
+@media (min-width:768px) and (max-width:991px){
+    #chicken{
+        width: 46%;
+    }
+    #beef{
+        width: 46%;
+    }
+    #sushi{
+        width: 95%;
+    }
+}
+
+/********** Extra Small devices only (Mobile) **********/
+@media (max-width: 767px){
+    .navbar-brand h1 { /* Food, LLC */
+        font-size: 6vw;  
+    }
+
+    .panel-footer {
+        font-size: 0.8em;
+    }
+
+    .container .row .title{
+        font-size: 1.3em;
+    }
+
+    .container p {
+        font-size: 1.1em;
+    }
+
+    .col-sm-12{
+        width: 95.5%;
+        margin-left: 15px;
+    }
+>>>>>>> 010ce9a... final commit
+}
